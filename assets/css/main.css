@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased selection:bg-primary/30 selection:text-white;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-background focus:ring-primary transition-all duration-300 shadow-[0_0_15px_rgba(185,28,28,0.4)] hover:shadow-[0_0_20px_rgba(185,28,28,0.7)] transform hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-gray-600 text-base font-medium rounded-md text-text hover:bg-white/5 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-background focus:ring-gray-500 transition-all duration-300;
+  }
+  
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-28;
+  }
+  
+  .heading-lg {
+    @apply text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6;
+  }
+  
+  .heading-md {
+    @apply text-3xl sm:text-4xl font-bold tracking-tight mb-4;
+  }
+  
+  .glass-card {
+    @apply bg-background-card/80 backdrop-blur-md border border-white/5 rounded-xl;
+  }
+}
