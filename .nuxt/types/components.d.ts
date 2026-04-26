@@ -17,9 +17,14 @@ interface _GlobalComponents {
   AboutSection: typeof import("../../components/AboutSection.vue")['default']
   AppFooter: typeof import("../../components/AppFooter.vue")['default']
   AppHeader: typeof import("../../components/AppHeader.vue")['default']
+  AppLogo: typeof import("../../components/AppLogo.vue")['default']
   ContactSection: typeof import("../../components/ContactSection.vue")['default']
+  FloatingChat: typeof import("../../components/FloatingChat.vue")['default']
   HeroSection: typeof import("../../components/HeroSection.vue")['default']
+  LaptopTradeSection: typeof import("../../components/LaptopTradeSection.vue")['default']
+  ReviewsSection: typeof import("../../components/ReviewsSection.vue")['default']
   ServicesSection: typeof import("../../components/ServicesSection.vue")['default']
+  StatsSection: typeof import("../../components/StatsSection.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/.pnpm/nuxt@3.21.2_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2_@parcel+watcher@2.5.6_@vue+compile_741438729a15f4a641e5a4727fd41a80/node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/.pnpm/nuxt@3.21.2_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2_@parcel+watcher@2.5.6_@vue+compile_741438729a15f4a641e5a4727fd41a80/node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/.pnpm/nuxt@3.21.2_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2_@parcel+watcher@2.5.6_@vue+compile_741438729a15f4a641e5a4727fd41a80/node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -47,9 +52,14 @@ interface _GlobalComponents {
   LazyAboutSection: LazyComponent<typeof import("../../components/AboutSection.vue")['default']>
   LazyAppFooter: LazyComponent<typeof import("../../components/AppFooter.vue")['default']>
   LazyAppHeader: LazyComponent<typeof import("../../components/AppHeader.vue")['default']>
+  LazyAppLogo: LazyComponent<typeof import("../../components/AppLogo.vue")['default']>
   LazyContactSection: LazyComponent<typeof import("../../components/ContactSection.vue")['default']>
+  LazyFloatingChat: LazyComponent<typeof import("../../components/FloatingChat.vue")['default']>
   LazyHeroSection: LazyComponent<typeof import("../../components/HeroSection.vue")['default']>
+  LazyLaptopTradeSection: LazyComponent<typeof import("../../components/LaptopTradeSection.vue")['default']>
+  LazyReviewsSection: LazyComponent<typeof import("../../components/ReviewsSection.vue")['default']>
   LazyServicesSection: LazyComponent<typeof import("../../components/ServicesSection.vue")['default']>
+  LazyStatsSection: LazyComponent<typeof import("../../components/StatsSection.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@3.21.2_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2_@parcel+watcher@2.5.6_@vue+compile_741438729a15f4a641e5a4727fd41a80/node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@3.21.2_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2_@parcel+watcher@2.5.6_@vue+compile_741438729a15f4a641e5a4727fd41a80/node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/.pnpm/nuxt@3.21.2_@emnapi+core@1.9.2_@emnapi+runtime@1.9.2_@parcel+watcher@2.5.6_@vue+compile_741438729a15f4a641e5a4727fd41a80/node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>

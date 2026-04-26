@@ -30,7 +30,7 @@
                   </div>
                   <div>
                     <h5 class="text-sm text-text-muted uppercase tracking-wider mb-1">Email</h5>
-                    <p class="text-lg font-medium text-white hover:text-primary transition-colors cursor-pointer">support@ptt-solutions.com</p>
+                    <p class="text-lg font-medium text-white hover:text-primary transition-colors cursor-pointer">pttitsolutions@gmail.com</p>
                   </div>
                 </div>
                 
@@ -40,7 +40,7 @@
                   </div>
                   <div>
                     <h5 class="text-sm text-text-muted uppercase tracking-wider mb-1">Location</h5>
-                    <p class="text-lg font-medium text-white">Cebu City, Philippines<br />Available for on-site visits.</p>
+                    <p class="text-lg font-medium text-white">2680 New Era, Mabolo<br />Cebu City, 6000 Cebu</p>
                   </div>
                 </div>
               </div>
@@ -49,11 +49,11 @@
             <div class="mt-12 pt-8 border-t border-white/10">
               <h5 class="text-sm text-text-muted uppercase tracking-wider mb-4">Follow Us</h5>
               <div class="flex gap-4">
-                <a href="#" class="w-10 h-10 rounded-full bg-background border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-all">
-                  <Icon name="heroicons:globe-alt" class="w-5 h-5 text-white" />
+                <a href="https://www.facebook.com/pttitsolutionscebu" target="_blank" class="w-10 h-10 rounded-full bg-background border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-all">
+                  <Icon name="fa6-brands:facebook-f" class="w-5 h-5 text-white" />
                 </a>
-                <a href="#" class="w-10 h-10 rounded-full bg-background border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-all">
-                  <Icon name="heroicons:share" class="w-5 h-5 text-white" />
+                <a href="https://maps.app.goo.gl/s3S1zkdBGvw8qr9r7" target="_blank" class="w-10 h-10 rounded-full bg-background border border-white/10 flex items-center justify-center hover:border-primary hover:text-primary transition-all">
+                  <Icon name="heroicons:map-pin" class="w-5 h-5 text-white" />
                 </a>
               </div>
             </div>
@@ -101,6 +101,20 @@
           </form>
         </div>
         
+      </div>
+      
+      <!-- Map Integration -->
+      <div class="w-full h-[400px] border-t border-white/10">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.287823528271!2d123.90790151124707!3d10.31888014569567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a9a3a83547201f%3A0xf24496449cfeca5a!2sPTT%20IT%20Solutions%20Cebu!5e0!3m2!1sen!2sph!4v1714131000000!5m2!1sen!2sph" 
+          width="100%" 
+          height="100%" 
+          style="border:0; filter: grayscale(1) invert(0.9) contrast(1.2);" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          class="opacity-70 hover:opacity-100 transition-opacity duration-500"
+        ></iframe>
       </div>
     </div>
   </section>

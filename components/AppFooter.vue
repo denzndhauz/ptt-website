@@ -3,9 +3,8 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12 border-b border-white/5 pb-12">
         <div class="col-span-1 md:col-span-2">
-          <div class="flex items-center gap-2 mb-6">
-            <Icon name="heroicons:cpu-chip" class="w-8 h-8 text-primary" />
-            <span class="text-xl font-bold tracking-tight text-white">PTT <span class="text-primary">IT-Solutions</span></span>
+          <div class="flex items-center mb-6">
+            <AppLogo />
           </div>
           <p class="text-text-muted text-sm leading-relaxed max-w-sm mb-6">
             Expert IT, network, and security services in Cebu. We deliver premium technical solutions tailored for individuals and businesses, prioritizing reliability and fast support.

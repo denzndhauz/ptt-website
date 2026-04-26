@@ -2,7 +2,10 @@
   <div>
     <HeroSection />
     <ServicesSection />
+    <StatsSection />
     <AboutSection />
+    <LaptopTradeSection />
+    <ReviewsSection />
     <ContactSection />
   </div>
 </template>

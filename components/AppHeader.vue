@@ -3,15 +3,15 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <div class="flex-shrink-0 flex items-center gap-2 cursor-pointer" @click="scrollTo('top')">
-          <Icon name="heroicons:cpu-chip" class="w-8 h-8 text-primary" />
-          <span class="text-xl font-bold tracking-tight text-white">PTT <span class="text-primary">IT-Solutions</span></span>
+        <div class="flex-shrink-0 flex items-center cursor-pointer" @click="scrollTo('top')">
+          <AppLogo />
         </div>
 
         <!-- Desktop Navigation -->
         <nav class="hidden md:flex space-x-8">
           <button @click="scrollTo('services')" class="text-text-light hover:text-white transition-colors text-sm font-medium">Services</button>
           <button @click="scrollTo('about')" class="text-text-light hover:text-white transition-colors text-sm font-medium">About</button>
+          <NuxtLink to="/laptops" class="text-text-light hover:text-white transition-colors text-sm font-medium">Laptops</NuxtLink>
           <button @click="scrollTo('contact')" class="text-text-light hover:text-white transition-colors text-sm font-medium">Contact</button>
         </nav>
 
